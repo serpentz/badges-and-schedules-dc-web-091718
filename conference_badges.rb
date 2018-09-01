@@ -13,5 +13,5 @@ def assign_rooms(attendees)
   }
 end
 def printer(attendees)
-attendees.each { |person| puts person  }
+attendees.map { |person| puts person  }
 end
