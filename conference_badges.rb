@@ -12,3 +12,6 @@ def assign_rooms(attendees)
       "Hello, #{attendee}! You'll be assigned to room #{room_number + 1}!"
   }
 end
+def printer(attendees)
+attendees.each { |person| puts person  }
+end
